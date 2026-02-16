@@ -10,7 +10,8 @@ pipeline {
                   --exclude='.git' \
                   --exclude='Jenkinsfile' \
                   --no-perms --no-owner --no-group \
-                  ./ ubuntu@13.49.138.229/var/www/html/wordpress/wp-content/themes/
+                  ./ ubuntu@13.49.138.229/var/www/html/wp-content/themes/sen-travel
+
                 '''
             }
         }
